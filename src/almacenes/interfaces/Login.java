@@ -31,6 +31,11 @@ public class Login extends javax.swing.JFrame {
         this.databaseUtils = databaseUtils;
         this.connectionDB = connectionDB;
     }
+    
+    public Login(Connection connectionDB) {
+        initComponents();
+        this.connectionDB = connectionDB;
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.

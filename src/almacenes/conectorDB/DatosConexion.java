@@ -10,14 +10,11 @@ package almacenes.conectorDB;
  * @author georgeguitar
  */
 public class DatosConexion {
-    public static final String DEFAULT_DRIVER = "org.postgresql.Driver";
+    public static final String DEFAULT_DRIVER = "org.mariadb.jdbc.Driver";
     public static final String DB_HOST = "localhost";
     public static final String DB_PORT = "5432";
-    public static final String DB_NAME = "creditosDB";
-//    public static final String DB_NAME = "borrar";
-//    public static final String DEFAULT_URL = "jdbc:postgresql://localhost:5432/creditosDB";
-    public static final String DEFAULT_URL = "jdbc:postgresql://";
-    public static final String DEFAULT_USERNAME = "postgres";
-//    public static final String DEFAULT_PASSWORD = "Lmedpled6410";
-    public static final String DEFAULT_PASSWORD = "postgres";
+    public static final String DB_NAME = "pacheco_sales";
+    public static final String DEFAULT_URL = "jdbc:mariadb://";
+    public static final String DEFAULT_USERNAME = "root";
+    public static final String DEFAULT_PASSWORD = "beatles";
 }
